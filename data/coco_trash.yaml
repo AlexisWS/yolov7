@@ -7,8 +7,8 @@
 #train: ./coco/train2017.txt  # 118287 images
 #val: ./coco/val2017.txt  # 5000 images
 #test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-train: ./data/trainval/images/train
-val: ./data/trainval/images/val
+train: ./data/finalproject/trainval/images/train
+val: ./data/finalproject/trainval/images/val
 
 # number of classes
 nc: 44
