@@ -1,0 +1,60 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+#download: bash ./scripts/get_coco.sh
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+#train: ./coco/train2017.txt  # 118287 images
+#val: ./coco/val2017.txt  # 5000 images
+#test: ./coco/test-dev2017.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: ./data/trainval/images/train
+val: ./data/trainval/images/val
+
+# number of classes
+nc: 44
+
+# class names
+names: [ 'Disposable Fast Food Box',
+          'Book Paper',
+          'Power Bank',
+          'Leftovers',
+          'Package',
+          'Trash Can',
+          'Plastic Utensils',
+          'Plastic Toys',
+          'Plastic Hangers',
+          'Big Bones',
+          'Dry Battery',
+          'Express Paper Bag',
+          'Plug Wire',
+          'Old Clothes',
+          'Can',
+          'Pillow',
+          'Peel and Pulp',
+          'Stuffed Toy',
+          'Defiled Plastic',
+          'Contaminated paper',
+          'Toilet care products',
+          'Cigarette butts',
+          'Toothpicks',
+          'Glassware',
+          'Baffle',
+          'Chopsticks',
+          'Carton box',
+          'Flower pot',
+          'Tea residue',
+          'Veggies',
+          'Egg Shell',
+          'Sauce Bottle',
+          'Ointment',
+          'Expired Medicine',
+          'Wine Bottle',
+          'Metal Kitchenware',
+          'Metal Utensils',
+          'Metal Food Cans',
+          'Pots',
+          'Ceramic utensils',
+          'Shoes',
+          'Edible Oil Drums',
+          'Bottles',
+          'Fish Bones' ]
