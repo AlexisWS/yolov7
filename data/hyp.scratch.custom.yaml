@@ -19,13 +19,13 @@ hsv_s: 0.7  # image HSV-Saturation augmentation (fraction)
 hsv_v: 0.4  # image HSV-Value augmentation (fraction)
 degrees: 0.0  # image rotation (+/- deg)
 translate: 0.2  # image translation (+/- fraction)
-scale: 0.5  # image scale (+/- gain)
+scale: 0.5  # image scale (+/- gain) (0.9 in hyp.scratch.p5.yaml)
 shear: 0.0  # image shear (+/- deg)
 perspective: 0.0  # image perspective (+/- fraction), range 0-0.001
 flipud: 0.0  # image flip up-down (probability)
 fliplr: 0.5  # image flip left-right (probability)
 mosaic: 1.0  # image mosaic (probability)
-mixup: 0.0  # image mixup (probability)
+mixup: 0.0  # image mixup (probability) (0.15 in hyp.scratch.p5.yaml)
 copy_paste: 0.0  # image copy paste (probability)
-paste_in: 0.0  # image copy paste (probability), use 0 for faster training
+paste_in: 0.0  # image copy paste (probability), use 0 for faster training (0.15 in hyp.scratch.p5.yaml)
 loss_ota: 1 # use ComputeLossOTA, use 0 for faster training
