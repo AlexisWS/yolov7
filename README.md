@@ -1,6 +1,6 @@
 # yolov7
 
-For Deep Learning Final Project
+For Final Project
 
 
 From https://github.com/WongKinYiu/yolov7 (slightly changed to train a custom dataset)
